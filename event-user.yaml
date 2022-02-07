@@ -42,7 +42,7 @@ spec:
     spec:
       containers:
       - name: event-user
-        image: "settingsamples-epoch-exastro_days_tokyo-event_user:main.20220207-172203"
+        image: "yoka2/settingsamples-epoch-exastro_days_tokyo-event_user:main.20220207-172203"
         envFrom:
         - prefix: RESOURCE_
           configMapRef:
